@@ -1,0 +1,162 @@
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.form-control {
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.book-now-form {
+  padding-top: 10px;  
+}
+.book-now-form .form-group {
+    margin-right: 1.5em;
+}
+.book-now-form label {
+    font-size: 13px;
+    display: block;
+    color: #fff;
+    padding-top: 5px;
+}
+.book-now-form .form-control {
+    height: 25px;
+    line-height: 25px;
+    background: white;
+    display: block;
+    font-size: 12px;
+    color: #969696;
+    padding: 4px 6px;
+}
+.book-now-form #start-date, .book-now-form #end-date {
+    padding-right: 22px;
+    background: url(https://www.solodev.com/assets/booking-form/icon_calendar.png) no-repeat scroll 98% center rgb(255, 255, 255);
+}
+@media (min-width: 992px) {
+  .book-now-form label {
+    float: left;
+    margin-right: 1em;
+    padding-top: 2px;
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .book-now-form .form-group {
+    margin-bottom: 0;
+    float: left;
+    margin-right: 1em;
+  }	
+  .book-now-form label {
+    float: left;
+    margin-right: 5px;
+    padding-top: 2px;
+    display: block;
+    padding-top:5px;
+  }
+  .book-now-form .form-control {
+    float: left;
+    width: 100px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+}
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;
+  }
+}
+.navbar-brand>img {
+  padding-top: 11px;
+  width: 130px;
+}
+.navbar-brand {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+  float: right;
+}
+.navbar {
+  background-color: 	#00bff3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  color: #fff;
+}
+.navbar-collapse {
+  padding-right: 0px;
+}
+.btn-sm {
+    line-height: 1;
+}
+
+.ct-section_header {
+text-align: center;
+padding-top: 10px;
+/*padding: 100px 0 60px;*/
+/*padding: 5rem 0 6rem;*/
+}
+.ct-section_header h2 {
+font-size: 65px;
+font-size: 6.5rem;
+color: #291b07;
+font-family: 'nimbus-sans-condensed', sans-serif;
+font-weight: bold;
+margin-bottom: 0;
+}
+.ct-section_header-separator {
+background-color: #00bff3;
+height: 2px;
+height: 0.2rem;
+display: inline-block;
+max-width: 700px;
+width: 100%;
+}
+.ct-section_header-description {
+font-family: 'nimbus-sans-condensed', sans-serif;
+font-weight: bold;
+color: #291b07;
+font-size: 26px;
+font-size: 2.6rem;
+max-width: 750px;
+max-width: 75rem;
+display: inline-block;
+}
+.ct-u-color-white .ct-section_header h2,
+.ct-u-color-white .ct-section_header-description {
+color: inherit;
+}
+@media only screen and (max-width: 479px) {
+.ct-section_header {
+  padding: 50px 0 45px;
+  padding: 5rem 0 4.5rem;
+}
+.ct-section_header h2 {
+  font-size: 45px;
+  font-size: 4.5rem;
+}
+.ct-section_header-separator {
+  width: 140px;
+  width: 14rem;
+}
+.ct-section_header-description {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+}
+section.ct_icon_box_section .ct-icon_box.media .fa, .ct-icon_box.media .fa {
+    font-size: 22px;
+    color: #fff;
+    background-color: #00bff3;
+    border-radius: 50%;
+    padding: 12px;
+}
+.ct-icon_box.media {
+    margin-bottom: 35px;
+    padding: 20px 20px;
+}
